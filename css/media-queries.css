@@ -1,0 +1,121 @@
+/* 320px 480px 768px 1024px 1224px делятся на 16 - ключевые точки;
+    популярные форматы шрифтов W0FF (W0FF2), TTF, E0T, SVG*/
+
+
+/* ==== 320 px ===================================================================== */
+
+@media (max-width: 320px) {
+    
+  
+}
+
+
+/* ==== 480 px ===================================================================== */
+
+@media (max-width: 480px) {
+    .header__container {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        grid-template-columns: 1fr 2fr;
+        
+    }
+
+    .burger__menu {
+        display: none;
+    }
+
+    .header__logo {
+        background-size: 83% auto ;
+        background-position: center;  
+    }
+
+    .language__icon {
+        display: none;
+    }
+
+    .footer__container {
+        padding: 0.6em 0 0.6em 0;
+    }
+
+    .main-container-2 {
+        margin: 5vw 0 5v 0;
+    }
+
+   
+    
+}
+
+
+/* ==== 768 px ===================================================================== */
+
+@media (max-width: 768px) {
+    .info__icon {
+        display: none;
+    }
+
+    .footer__container {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    .video-component__design-line-long-2 {
+        display: none;
+    }
+
+    .big-video__content-component {
+        justify-items: center;
+        align-items: center;
+    }
+
+    .video-component__title {
+        font-size: 2em;
+    }
+
+   
+}
+
+
+/* ==== 1120 px ===================================================================== */
+
+@media (max-width: 1120px) {
+    .header__center {
+        gap: 0;
+    }
+
+    .navigation__list {
+        display: none;
+    }
+    
+    
+  
+}
+
+
+/* ==== 1244 px ===================================================================== */
+
+@media (max-width: 1244px) {
+    .footer__left {
+        justify-content: center;
+    }
+
+    .video-component__design-line-short {
+        display: none;
+    }
+
+    .video-component__design-line-long-1 {
+        display: none;
+    }
+
+    .content-component__title {
+        font-size: 48px;
+      }
+
+    .slider__number {
+        font-size: 24px;
+    }
+
+    .content-component__btn {
+        width: 200px;
+        height: 30px;
+      }
+}
